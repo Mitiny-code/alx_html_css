@@ -1,0 +1,277 @@
+
+body {
+    border: 4px solid black;
+    margin: 10px;
+}
+.navigation-wrapper {
+    border: 2px solid black;
+    margin: 20px;
+    display:flex !important;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.header {
+    border: 3px solid black;
+    margin: 20px;
+}
+.logo-wrapper {
+    border: 2px solid red;
+    margin: 5px;
+}
+.logo-text {
+    border: 2px solid green;
+    margin:4px;
+    padding: 6px 80px;
+    font-weight: bolder;
+}
+a{
+    text-decoration: none;
+    color:black !important;
+}
+
+.link-wrapper{
+    border:2px solid black;
+    display:flex;
+    margin:4px;
+ flex-direction: row;
+ flex-wrap: wrap;
+}
+.link{
+    border:2px solid red;
+    margin:5px;
+    padding:5px 20px;
+    text-transform: uppercase;
+}
+.title-wrapper {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin: auto; 
+    margin-top: 10px;
+}
+.title-1 {
+    border: 1px solid blue;
+}
+.words {
+    border: 1px solid purple;
+}
+.button {
+    border: 1px solid yellow;
+}
+.title {
+    margin: 4px;
+    padding: 10px;
+    text-align: center;
+}
+.container {
+    border: 2px solid black;
+    margin: 5px;
+
+}
+.banners {
+    border: 1px solid black;
+    width: 60%;
+    margin: auto;
+    margin-top: 10px;
+}
+.title-2 {
+    text-align: center;
+    border: 2px solid blue;
+    width: 10%;
+    margin: auto;
+    margin-top:8px;
+    padding: 4px 10px;
+}
+.banners-container {
+    border: 2px solid black;
+    flex-direction: row;
+    margin: 2px;
+    display: flex;
+    justify-content: space-between;
+}
+.banner-1 {
+    flex-direction: column;
+    display: flex;
+    border: 2px solid black;
+    margin: 4px;
+}
+.banner-image {
+    text-align: center;
+    border: 2px solid green;
+    margin: 2px;
+    padding: 2px;
+}
+.banner-2 {
+    flex-direction: column;
+    display: flex;
+    border: 2px solid black;
+    margin: 4px;
+}
+.banner-3 {
+    flex-direction: column;
+    display: flex;
+    border: 2px solid black;
+    margin: 4px;
+}
+.banner-4 {
+    flex-direction: column;
+    display: flex;
+    border: 2px solid black;
+    margin: 4px;
+}
+.banner-name {
+    text-align: center;
+    border: 2px solid blue;
+    margin: 2px;
+    padding: 2px 60px;
+}
+.banner-subtitle {
+    text-align: center;
+    border: 2px solid purple;
+    margin: 2px;
+    padding: 2px;
+}
+.quote-section {
+    border: 2px solid black;
+    margin: 4px;
+    display: flex;
+    width: 20%;
+    margin: auto;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.quote {
+    border: 2px solid black;
+    margin-top: 4px;
+
+}
+.quote-image {
+    text-align: center;
+    border: 2px solid green;
+    margin: 2px;
+    padding: 5px 50px;
+    height: 4%;
+
+}
+.quote-quote {
+    text-align: center;
+    border: 2px solid pink;
+    margin: 2px;
+    padding: 2px;
+
+}
+.quote-author {
+    text-align: center;
+    border: 2px solid purple;
+    margin: 2px;
+    padding: 2px;
+
+}
+.quote-subtitle {
+    text-align: center;
+    border: 2px solid purple;
+    margin: 2px;
+    padding: 2px;
+}
+.quote-wrapper {
+    border: 2px solid black;
+    margin: 3px;  
+}
+.wrapper-2 {
+    border: 2px solid blue;
+    margin: 2px;
+    text-align: center;
+    width: 2%;
+    margin: auto;
+    padding: 1px 60px;
+    margin-top: 4px;
+}
+.wrapper-container {
+    border: 2px solid black;
+    margin: 2px;
+
+}
+.parent {
+    border: 2px solid black;
+    padding: 4px 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 4px;
+    
+
+}
+.sub-parent {
+    display: flex;
+    flex-direction: column;
+
+}
+.block-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+}
+.image-2, .image-3{
+    border: 2px solid green;
+    text-align: center;
+    padding: 5px;
+    margin: 4px;
+}
+.title-4, .text-4 {
+    border: 2px solid blue;
+    text-align: center;
+    padding: 5px;
+    margin: 4px;
+}
+.Videos {
+    display: flex;
+    border: 2px solid black;
+    margin: 4px;
+    padding: 5px;
+    flex-direction: column;
+}
+
+.image5 {
+    border: 2px solid green;
+    text-align: center;
+    padding: 5px 60px;
+    margin: 4px;
+}
+.title7 {
+    border: 2px solid blue;
+    text-align: center;
+    padding: 5px 60px;
+    margin: 4px;
+}
+
+
+.image6{
+    border: 2px solid green;
+    text-align: center;
+    padding: 5px 60px;
+    margin: 4px;
+}
+.title8 {
+    border: 2px solid blue;
+    text-align: center;
+    padding: 5px 60px;
+    margin: 4px;
+}
+
+.wrapper-2 {
+    border: 2px solid blue;
+    margin: 2px;
+    text-align: center;
+    width: 2%;
+    margin: auto;
+    padding: 1px 60px;
+    margin-top: 4px;
+}
+.footer {
+    border: 3px solid black;
+    margin: 20px;
+}
